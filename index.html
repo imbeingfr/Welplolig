@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Marry Me?</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fce4ec, #e3f2fd);
+      color: #444;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .swans {
+      width: 200px;
+      margin: 1rem auto;
+    }
+    .message {
+      max-width: 600px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    button {
+      background-color: #f8bbd0;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 25px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      color: #fff;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #ec407a;
+    }
+    .response {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      color: #6a1b9a;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <img class="swans" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Two_swans_forming_a_heart_shape.jpg/640px-Two_swans_forming_a_heart_shape.jpg" alt="Love Swans" />
+  <div class="message">
+    this has been a long time coming, we’ve been dating for so long, you've been my gf for so long, I've been your bf for so long, a title I'll forever cherish. Every memory I make w you has a special place in my heart. Idk what I've done to deserve you but I'm so glad you're a permanent part of my life rn. You support me for being myself and I'm ever grateful to you for that. Our relationship has been so perfect till date, I only wanna change one thing about it, and that is my title from being your bf to being your husband. Ik we’re young but I wanna live my life w you, share my life w you and ion think I can do this better. I love you so much. Will you lemme be your husband, love? Will you marry me, Aadhya?
+  </div>
+  <button onclick="showResponse()">Yes, I will</button>
+  <div class="response" id="response">
+    You're officially Mrs. Aakarsh now. Congrats on getting married and lead a healthy married life!
+  </div>
+
+  <script>
+    function showResponse() {
+      document.getElementById('response').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
